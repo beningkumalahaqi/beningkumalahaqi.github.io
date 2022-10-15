@@ -5,7 +5,12 @@ h1.title {
   text-align: center;
   margin-top: 50px;
   font-size: 20px;
+  margin-bottom: 50px;
 }
 .title-container {
   padding: 10px;
+}
+.container {
+  justify-content: center;
+  display: flex;
 }
