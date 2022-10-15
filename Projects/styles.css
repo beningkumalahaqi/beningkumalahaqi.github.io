@@ -1,3 +1,7 @@
 html {
   font-family: monospace;
 }
+h1.title {
+  text-align: center;
+  margin-top: 50px;
+}
