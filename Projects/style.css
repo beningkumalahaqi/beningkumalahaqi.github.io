@@ -6,3 +6,6 @@ h1.title {
   margin-top: 50px;
   font-size: 20px;
 }
+.title-container {
+  padding: 10px;
+}
