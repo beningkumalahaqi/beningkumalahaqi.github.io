@@ -51,3 +51,8 @@ footer {
   font-family: 'Corinthia', cursive;
   font-size: 40px;
 }
+.navbar-collapse{
+  display: flex;
+  text-align: right;
+  justify-content: right;
+}

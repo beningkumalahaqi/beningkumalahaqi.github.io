@@ -14,3 +14,12 @@ h1.title {
   justify-content: center;
   display: flex;
 }
+.navbar-brand{
+  font-family: 'Corinthia', cursive;
+  font-size: 40px;
+}
+.navbar-collapse{
+  display: flex;
+  text-align: right;
+  justify-content: right;
+}
