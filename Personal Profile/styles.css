@@ -47,3 +47,7 @@ footer {
   text-align: center;
   margin: 60px;
 }
+.navbar-brand{
+  font-family: 'Corinthia', cursive;
+  font-size: 40px;
+}
