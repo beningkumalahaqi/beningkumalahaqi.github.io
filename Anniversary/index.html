@@ -3,6 +3,10 @@
   <head>
     <!--Boostrap-->
     <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
@@ -23,7 +27,6 @@
       }
       h1.anniv {
         font-size: 40px;
-        
       }
       p.anniversary-text,
       p.demo {
@@ -40,7 +43,7 @@
         max-width: 400px;
         padding: 20px;
         border-radius: 200px;
-        background-color: #FFACC7;
+        background-color: #ffacc7;
         box-shadow: 10px 10px 8px #888888;
         box-sizing: border-box;
       }
@@ -58,13 +61,26 @@
         box-sizing: border-box;
         margin-bottom: 20px;
       }
+      .bi-balloon-heart-fill {
+        font-size: 30px;
+      }
+      header {
+        margin-top: 20px; 
+      }
     </style>
     <title>H&B</title>
   </head>
   <body>
     <div class="container-header">
       <header>
-        <h1 class="text-center">♥♥♥♥♥♥♥♥♥♥♥</h1>
+        <h1 class="text-center">
+          <i class="bi bi-hearts"></i><i class="bi bi-hearts"></i
+          ><i class="bi bi-hearts"></i><i class="bi bi-hearts"></i
+          ><i class="bi bi-hearts"></i><i class="bi bi-hearts"></i
+          ><i class="bi bi-hearts"></i><i class="bi bi-hearts"></i
+          ><i class="bi bi-hearts"></i><i class="bi bi-hearts"></i
+          ><i class="bi bi-hearts"></i><i class="bi bi-hearts"></i>
+        </h1>
       </header>
     </div>
     <div class="text-center">
@@ -74,48 +90,48 @@
         class="rounded anniv-img"
         alt="https://ibb.co/6Z3VRMS"
       />
-      <h1 class="anniv text-center">Haqii ♥ Bagin</h1>
-        <div class="divider"></div>
+      <h1 class="anniv text-center">
+        Haqii <i class="bi bi-heart-fill"></i> Bagin
+      </h1>
+      <div class="divider"></div>
       <div class="countdown-timer">
         <p class="anniversary-text">Until Our Next Anniversary:</p>
         <div class="timer">
           <p class="demo text-center" id="demo"></p>
         </div>
-
-        <script>
-          // Set the date we're counting down to
-          var countDownDate = new Date("June 24, 2023").getTime();
-
-          // Update the count down every 1 second
-          var x = setInterval(function () {
-            // Get today's date and time
-            var now = new Date().getTime();
-
-            // Find the distance between now and the count down date
-            var distance = countDownDate - now;
-
-            // Time calculations for days, hours, minutes and seconds
-            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-            var hours = Math.floor(
-              (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
-            );
-            var minutes = Math.floor(
-              (distance % (1000 * 60 * 60)) / (1000 * 60)
-            );
-            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-            // Display the result in the element with id="demo"
-            document.getElementById("demo").innerHTML =
-              days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-
-            // If the count down is finished, write some text
-            if (distance < 0) {
-              clearInterval(x);
-              document.getElementById("demo").innerHTML = "EXPIRED";
-            }
-          }, 1000);
-        </script>
       </div>
     </div>
+
+    <script>
+      // Set the date we're counting down to
+      var countDownDate = new Date("June 24, 2023").getTime();
+
+      // Update the count down every 1 second
+      var x = setInterval(function () {
+        // Get today's date and time
+        var now = new Date().getTime();
+
+        // Find the distance between now and the count down date
+        var distance = countDownDate - now;
+
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor(
+          (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+        );
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Display the result in the element with id="demo"
+        document.getElementById("demo").innerHTML =
+          days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+
+        // If the count down is finished, write some text
+        if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("demo").innerHTML = "EXPIRED";
+        }
+      }, 1000);
+    </script>
   </body>
 </html>
