@@ -1,0 +1,47 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    h1.anniv {
+        font-size: 20px;
+      }
+      p.anniversary-text,
+      p.demo {
+        font-size: 30px;
+      }
+      .timer {
+        display: inline-flex;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+        border: solid black;
+        max-width: 400px;
+        padding: 20px;
+        border-radius: 200px;
+        background-color: #ffacc7;
+        box-shadow: 10px 10px 8px #888888;
+        box-sizing: border-box;
+      }
+      .divider {
+        border-bottom: 5px solid #000;
+        margin: 2px 0;
+        clear: right;
+        width: 60%;
+        justify-content: center;
+        align-content: center;
+        display: inline-flex;
+      }
+      img.anniv-img {
+        box-shadow: 10px 10px 8px #888888;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+      }
+      .bi-balloon-heart-fill {
+        font-size: 30px;
+      }
+      header {
+        margin-top: 20px; 
+      }
+    </st
+
+    }
