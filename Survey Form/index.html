@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1 class="title text-center" id="title">Survey Form</h1>
+        <p class="description text-center" id="description">
+          "Made by Bening Kumala Haqi"
+        </p>
+      </header>
+    </div>
+    <div class="survey-form">
+        <form id="survey-form" class="survey-form">
+          <fieldset>
+          <label id="name-label" for="name"
+            >Name <input placeholder="Enter Your Name" required id="name" type="text"
+          /></label>
+          <label id="email-label" for="email"
+            >Email <input placeholder="Enter Your Email" required id="email" type="email"
+          /></label>
+          <label id="number-label" for="number">Age <input placeholder="Age (1-120)" min="1" max="120" id="number" type="number"></label>
+          <label for="dropdown"> What is your current role?
+            <select name="role" id="dropdown">
+              <option value="">
+                (select current role)
+              </option>
+              <option value="1">
+                Student
+              </option>
+              <option value="2">
+                Full Time Job
+              </option>
+              <option value="3">
+                Full Time Learner
+              </option>
+              <option value="4">
+                Prefer Not To Say
+              </option>
+              <option value="2">
+                Other
+              </option>
+            </select>
+          </label>
+          <p>Is this a Good Survey Website?</p>
+          <label for="radio-1">
+            <input id="radio-1" name="radio-1" class="radio" value="1" type="radio">Definitely
+          </label>
+          <label for="radio-1">
+            <input id="radio-1" name="radio-1" class="radio" value= "1" type="radio">Maybe
+          </label>
+          <label for="radio-1">
+            <input id="radio-1" name="radio-1" class="radio" value= "1" type="radio">Not Sure
+          </label>
+          <p>Would you recommend me?</p>
+          <label for="checkbox"><input value="1" type="checkbox">Yes</label>
+          <label for="checkbox"><input value= "1" type="checkbox">No</label>
+          <label for="textarea">
+            Any comments or suggestions?
+            <textarea placeholder="Enter your comment here" name="textarea" id="textarea" cols="30" rows="5"></textarea>
+          </label>
+        </form>
+        <button id="submit" type="submit">Submit</button>
+      </fieldset> 
+    </div>
+  </body>
+</html>
