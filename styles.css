@@ -1,0 +1,58 @@
+html {
+  font-family: sans-serif;
+}
+.profile-picture {
+  display: flex;
+  justify-content: center;
+}
+img.profile-picture {
+  background-color: pink;
+  border-radius: 100%;
+  width: 200px;
+}
+.name, .description {
+  text-align:center;
+  margin: 0;
+}
+.name {
+  font-weight: 400;
+}
+.description {
+  font-style: italic;
+}
+.profile {
+  margin-top: 50px;
+}
+.about-me {
+  margin: 50px auto auto auto;
+  width: 400px;
+  border: 2px solid black;
+  padding: 10px;
+}
+.bio {
+  text-align: justify;
+}
+img.linkedin {
+  width: 40px;
+}
+div.contact {
+  display: flex;
+  justify-content: center;
+}
+h3.contact {
+  margin-top: 50px;
+  text-align: center;
+}
+footer {
+  text-align: center;
+  margin: 60px;
+}
+.navbar-brand{
+  font-family: 'Corinthia', cursive;
+  font-size: 40px;
+}
+.navbar-collapse{
+  display: flex;
+  text-align: right;
+  justify-content: right;
+}
