@@ -1,0 +1,40 @@
+.allah {
+    text-align: center;
+    font-size: 200px;
+}
+
+h1.header {
+    text-align: center;
+    font-size: 60px;
+    font-family: monospace,sans-serif;
+    font-style: italic;
+    margin-bottom: 50px;
+}
+
+body {
+    background-color: yellow;
+    background-repeat: no-repeat;
+}
+
+.col {
+    border: solid 1px;
+    margin: 40px;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.53);
+    border-radius: 100px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.4px);
+    -webkit-backdrop-filter: blur(2.4px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 100px;
+    font-size: 40px;
+}
+.col:hover {
+    transform: scale(1.1);
+    transition: all 500ms ease-in-out;
+    cursor: pointer;
+}
+p {
+    font-size: 20px;
+}
+
