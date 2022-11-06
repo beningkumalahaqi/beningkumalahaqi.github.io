@@ -20,12 +20,12 @@
         <form id="survey-form" class="survey-form">
           <fieldset>
           <label id="name-label" for="name"
-            >Name <input placeholder="Enter Your Name" required id="name" type="text"
+            >Name: <input placeholder="Enter Your Name" required id="name" type="text"
           /></label>
           <label id="email-label" for="email"
-            >Email <input placeholder="Enter Your Email" required id="email" type="email"
+            >Email: <input placeholder="Enter Your Email" required id="email" type="email"
           /></label>
-          <label id="number-label" for="number">Age <input placeholder="Age (1-120)" min="1" max="120" id="number" type="number"></label>
+          <label id="number-label" for="number">Age: <input placeholder="Age (1-120)" min="1" max="120" id="number" type="number"></label>
           <label for="dropdown"> What is your current role?
             <select name="role" id="dropdown">
               <option value="">
@@ -63,7 +63,7 @@
           <label for="checkbox"><input value= "1" type="checkbox">No</label>
           <label for="textarea">
             Any comments or suggestions?
-            <textarea placeholder="Enter your comment here" name="textarea" id="textarea" cols="30" rows="5"></textarea>
+            <textarea class="comment" placeholder="Enter your comment here" name="textarea" id="textarea" cols="30" rows="5"></textarea>
           </label>
         </form>
         <button id="submit" type="submit">Submit</button>
