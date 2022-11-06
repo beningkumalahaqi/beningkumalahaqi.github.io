@@ -46,6 +46,7 @@ h3.contact {
 footer {
   text-align: center;
   margin: 60px;
+  position: relative;
 }
 .navbar-brand{
   font-family: 'Corinthia', cursive;
