@@ -45,7 +45,11 @@ header {
 
 .frame:hover {
     transition: all 300ms ease-in-out;
-    transform: scale(1.1)
+    transform: scale(1.1);
+}
+
+.frame-link {
+    -webkit-tap-highlight-color: transparent;
 }
 
 .content-img {
