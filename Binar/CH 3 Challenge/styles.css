@@ -59,7 +59,7 @@
       }
       .button-1:hover {
         transform: scale(1.1);
-        transition: all ease 500ms;
+        transition: all ease 300ms;
       }
       h3.arrow-down-text {
         text-align: center;
